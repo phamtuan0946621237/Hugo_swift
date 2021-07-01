@@ -1,0 +1,6 @@
+framework module Pods_Hugo_swiftTests {
+  umbrella header "Pods-Hugo_swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
