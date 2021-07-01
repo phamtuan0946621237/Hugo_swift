@@ -11,13 +11,13 @@
 		48B9C9325D9A117C560B91D3 /* Pods_Hugo_swift_Hugo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E861C392D205E89CEB0EBEA /* Pods_Hugo_swift_Hugo_swiftUITests.framework */; };
 		84713FE7268E1D6700C2FBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84713FE6268E1D6700C2FBBF /* AppDelegate.swift */; };
 		84713FE9268E1D6700C2FBBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84713FE8268E1D6700C2FBBF /* SceneDelegate.swift */; };
-		84713FEB268E1D6700C2FBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84713FEA268E1D6700C2FBBF /* ViewController.swift */; };
 		84713FEE268E1D6700C2FBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84713FEC268E1D6700C2FBBF /* Main.storyboard */; };
 		84713FF1268E1D6700C2FBBF /* Hugo_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84713FEF268E1D6700C2FBBF /* Hugo_swift.xcdatamodeld */; };
 		84713FF3268E1D6A00C2FBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84713FF2268E1D6A00C2FBBF /* Assets.xcassets */; };
 		84713FF6268E1D6A00C2FBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84713FF4268E1D6A00C2FBBF /* LaunchScreen.storyboard */; };
 		84714001268E1D6A00C2FBBF /* Hugo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714000268E1D6A00C2FBBF /* Hugo_swiftTests.swift */; };
 		8471400C268E1D6A00C2FBBF /* Hugo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471400B268E1D6A00C2FBBF /* Hugo_swiftUITests.swift */; };
+		8471401B268E1F6500C2FBBF /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471401A268E1F6500C2FBBF /* ForgotVC.swift */; };
 		F295468ED6FFA9AA44A502AD /* Pods_Hugo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831034C1A6C2DA0FE69AB45 /* Pods_Hugo_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,6 @@
 		84713FE3268E1D6700C2FBBF /* Hugo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hugo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84713FE6268E1D6700C2FBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84713FE8268E1D6700C2FBBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84713FEA268E1D6700C2FBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84713FED268E1D6700C2FBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84713FF0268E1D6700C2FBBF /* Hugo_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hugo_swift.xcdatamodel; sourceTree = "<group>"; };
 		84713FF2268E1D6A00C2FBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		84714007268E1D6A00C2FBBF /* Hugo_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hugo_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8471400B268E1D6A00C2FBBF /* Hugo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hugo_swiftUITests.swift; sourceTree = "<group>"; };
 		8471400D268E1D6A00C2FBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471401A268E1F6500C2FBBF /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
 		883A86A7B25A78DB881ACC08 /* Pods-Hugo_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-Hugo_swiftTests/Pods-Hugo_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		C1ECF6EE4FCF9EE48AC59694 /* Pods-Hugo_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Hugo_swiftTests/Pods-Hugo_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1861554CA7561646E63829 /* Pods-Hugo_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo_swift.debug.xcconfig"; path = "Target Support Files/Pods-Hugo_swift/Pods-Hugo_swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,9 +128,9 @@
 		84713FE5268E1D6700C2FBBF /* Hugo_swift */ = {
 			isa = PBXGroup;
 			children = (
+				84714019268E1F4E00C2FBBF /* screen */,
 				84713FE6268E1D6700C2FBBF /* AppDelegate.swift */,
 				84713FE8268E1D6700C2FBBF /* SceneDelegate.swift */,
-				84713FEA268E1D6700C2FBBF /* ViewController.swift */,
 				84713FEC268E1D6700C2FBBF /* Main.storyboard */,
 				84713FF2268E1D6A00C2FBBF /* Assets.xcassets */,
 				84713FF4268E1D6A00C2FBBF /* LaunchScreen.storyboard */,
@@ -158,6 +158,14 @@
 			path = Hugo_swiftUITests;
 			sourceTree = "<group>";
 		};
+		84714019268E1F4E00C2FBBF /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				8471401A268E1F6500C2FBBF /* ForgotVC.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		CE77D7A75B75FD53559E27B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +176,6 @@
 				C1ECF6EE4FCF9EE48AC59694 /* Pods-Hugo_swiftTests.debug.xcconfig */,
 				883A86A7B25A78DB881ACC08 /* Pods-Hugo_swiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -374,10 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84713FEB268E1D6700C2FBBF /* ViewController.swift in Sources */,
 				84713FE7268E1D6700C2FBBF /* AppDelegate.swift in Sources */,
 				84713FF1268E1D6700C2FBBF /* Hugo_swift.xcdatamodeld in Sources */,
 				84713FE9268E1D6700C2FBBF /* SceneDelegate.swift in Sources */,
+				8471401B268E1F6500C2FBBF /* ForgotVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
